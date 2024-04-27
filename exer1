@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero {
+      background-image: url('hero.jpg');
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      background-color: #f9f9f9;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .feature {
+      margin-bottom: 30px;
+    }
+
+    .feature img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Landing Page</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Discover Amazing Products</h1>
+      <p>Get started today!</p>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature">
+      <img src="feature1.jpg" alt="Feature 1">
+      <h3>Feature 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <img src="feature2.jpg" alt="Feature 2">
+      <h3>Feature 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+      <cite>- vidya sagarika gollapalli</cite>
+    </div>
+    <div class="testimonial">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+      <cite>- vidya sagarika gollapalli</cite>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact: info@example.com | Phone: 123-456-7890</p>
+    <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
